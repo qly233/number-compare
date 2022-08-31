@@ -1,0 +1,54 @@
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
+xst -intstyle ise -ifn "D:/szdl/numbercompare/compare.xst" -ofn "D:/szdl/numbercompare/compare.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc compare.ucf -p xc7a100t-fgg484-2L compare.ngc compare.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o compare_map.ncd compare.ngd compare.pcf 
+par -w -intstyle ise -ol high -mt off compare_map.ncd compare.ncd compare.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml compare.twx compare.ncd -o compare.twr compare.pcf -ucf compare.ucf 
+bitgen -intstyle ise -f compare.ut compare.ncd 
